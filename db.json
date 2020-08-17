@@ -1,91 +1,30 @@
 {
-  "venues" : [
-  {  
-      "id" : "1",
-        "venueName" : "Abuja Event Center",
-        "venueLocation" : "Maitima, Abuja",
-            "price" : "1, 500, 500 Naira per day",
-            "date": "132323",
-            "image": "https://res.cloudinary.com/dsipecjov/image/upload/v1591924577/dpl94k9kf4cb5o7fwska.jpg",
-            "guestCapacity": "5000",
-            "service": "indoor/outdoor",
-            "location": "no 5 Alhaji. jinadu Island",
-           " style": "Event center ballrooms Vintage/Rustic outdoor",
-            "amen" : [
-                "2 changing room", "Tables and chairs provided", "550 public parking", "Air conditioner", "Security", "Banquet", "Stage", "Rest room"
-            ],
-            "amenities" : "2 changing room, Tables and chaire proved, 550 public parking, Air conditioner. Security, Banquet, Stage, Rest room",
-           "descriptionMobile": "Lorem ipsummassa. Etiam non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet",
-            "descriptionWeb": ".non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet Lorem ipsummassa. Etiam non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet"
- 
-        
-  },
-  {  "id" : "2",
-        "venueName" : "Lagos Event Center",
-        "venueLocation" : "Maitima, Abuja",
-            "price" : "1, 500, 500 Naira per day",
-            "date": "132323",
-            "image": "https://res.cloudinary.com/dsipecjov/image/upload/v1591924577/dpl94k9kf4cb5o7fwska.jpg",
-            "guestCapacity": "5000",
-            "service": "indoor/outdoor",
-           " location": "no 5 Alhaji. jinadu Island",
-           " style": "Event center ballrooms Vintage/Rustic outdoor",
-            "amenities" : "2 changing room, Tables and chaire proved, 550 public parking, Air conditioner. Security, Banquet, Stage, Rest room",
-           "descriptionMobile": "Lorem ipsummassa. Etiam non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet",
-            "descriptionWeb": ".non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet Lorem ipsummassa. Etiam non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet"
- 
-        
-  },
-  {  "id" : "3",
-        "venueName" : "Lekki Event Center",
-        "venueLocation" : "Maitima, Abuja",
-            "price" : "1, 500, 500 Naira per day",
-            "date": "132323",
-            "image": "https://res.cloudinary.com/dsipecjov/image/upload/v1591924577/dpl94k9kf4cb5o7fwska.jpg",
-            "guestCapacity": "5000",
-            "service": "indoor/outdoor",
-            "location": "no 5 Alhaji. jinadu Island",
-           " style": "Event center ballrooms Vintage/Rustic outdoor",
-            "amenities" : "2 changing room, Tables and chaire proved, 550 public parking, Air conditioner. Security, Banquet, Stage, Rest room",
-            "descriptionMobile": "Lorem ipsummassa. Etiam non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet",
-            "descriptionWeb": ".non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet Lorem ipsummassa. Etiam non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet"
-        
-  },
-  {  "id" : "4",
-        "venueName" : "Ikeja Event Center",
-        "venueLocation" : "Maitima, Abuja",
-            "price" : "1, 500, 500 Naira per day",
-            "date": "132323",
-            "image": "https://res.cloudinary.com/dsipecjov/image/upload/v1591924577/dpl94k9kf4cb5o7fwska.jpg",
-            "guestCapacity": "5000",
-            "service": "indoor/outdoor",
-            "location": "no 5 Alhaji. jinadu Island",
-           " style": "Event center ballrooms Vintage/Rustic outdoor",
-            "amenities" : "2 changing room, Tables and chaire prov, 550 public parking, Air conditioner. Security, Banquet, Stage, Rest room",
-           "descriptionMobile": "Lorem ipsummassa. Etiam non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet",
-            "descriptionWeb": ".non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet Lorem ipsummassa. Etiam non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet"
- 
-        
-  },
-  {  "id" : "5",
-        "venueName" : "Magodo Event Center",
-        "venueLocation" : "Maitima, Abuja",
-            "price" : "1, 500, 500 Naira per day",
-            "date": "132323",
-            "image": "https://res.cloudinary.com/dsipecjov/image/upload/v1591924577/dpl94k9kf4cb5o7fwska.jpg",
-            "guestCapacity": "5000",
-            "service": "indoor/outdoor",
-            "location": "no 5 Alhaji. jinadu Island",
-           " style": "Event center ballrooms Vintage/Rustic outdoor",
-            
-            "amenities" : "2 changing room, Tables and chaire proved, 550 public parking, Air conditioner. Security, Banquet, Stage, Rest room",
-           "descriptionMobile": "Lorem ipsummassa. Etiam non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet",
-            "descriptionWeb": ".non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet Lorem ipsummassa. Etiam non quam lacus suspendisse faucibusinterdum posuere lorem. Est lorem ipsum or sit amet",
- 
-        
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-
-  ]
-}
-
-
