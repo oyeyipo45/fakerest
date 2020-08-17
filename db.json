@@ -1,7 +1,7 @@
 {
   "venues" : [
   {  
-      "id" : "1",
+      "id" : 1,
         "venueName" : "Abuja Event Center",
         "venueLocation" : "Maitima, Abuja",
             "price" : "1, 500, 500 Naira per day",
